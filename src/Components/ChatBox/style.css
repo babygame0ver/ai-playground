@@ -1,0 +1,40 @@
+.chatbox-conversation{
+    height : 430px;
+    margin : 50px 0 30px 0;
+    border : 1px black solid;
+    border-radius: 5px;
+    box-shadow: 5px 10px;
+    /* overflow-y: scroll; */
+    overflow: auto;
+    /* scrollbar-width: none; */
+
+}
+
+.single-conversation{
+    list-style-type:none;
+}
+
+.conversation{
+    margin : 24px 20px 0px 0;
+}
+
+.human{
+    background-color : #007bff;
+    position : relative;
+}
+
+.bot{
+    background-color : #28a745;
+}
+
+.query{
+    border-radius: 5px;
+    padding : 7px 0px 7px 0px;    
+    color : #fff;
+    text-align: center;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}

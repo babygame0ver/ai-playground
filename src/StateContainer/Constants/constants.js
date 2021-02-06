@@ -1,0 +1,3 @@
+export const START_LOADER = 'START_LOADER'
+export const STOP_LOADER = 'STOP_LOADER'
+export const QUERY_RESPONSE = 'QUERY_RESPONSE'
